@@ -1,6 +1,8 @@
 # Context
 นี่คือไฟล์ markdown ที่ผมทำเป็น instruction ไฟล์เอาไว้สำหรับ อ่านเพื่อทำตามขั้นตอนได้เลยครับ แต่อาจจะมีบางจุดตกหล่น หรือเกิด error ได้ต่อให้ทำตามแล้ว เป็นเรื่องปกติ ให้แชทช่วยก็ได้ครับ
 # Steps
+## 0. Download model ได้จาก hugginface โดยใช้คำสั่ง 
+`wget https://huggingface.co/Jemssss/Three_whisper_model/resolve/main/best_model_2trans.pt`
 ## 1. เปิดอ่านในโหมด preview
 ถ้าใครที่เปิดอ่านไฟล์นี้ใน vscode จะสามารถอ่านได้ง่ายขึ้นในโหมด preview นะครับ โดยการกด `ctrl + k` แล้วกด `v` จะขึ้นแสดงหน้าต่าง preview ขึ้นมาครับ
 ## 2. ติดตั้ง virtual environment
