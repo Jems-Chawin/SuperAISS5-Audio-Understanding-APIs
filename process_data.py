@@ -13,8 +13,8 @@ df = pd.read_csv(file_name + ".csv")
 
 # only for data handmade
 if file_name == "./data_handmade/trainData/train":
-    df["agent_fname"] = "ชวิน"
-    df["agent_lname"] = "ศรีวิเศษ"
+    df["agent_fname"] = "John"
+    df["agent_lname"] = "Doe"
 
 # 2) Rename columns to match TestDataRow fields:
 df = df.rename(columns={
